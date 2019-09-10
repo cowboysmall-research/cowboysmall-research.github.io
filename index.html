@@ -15,9 +15,8 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 
-  <!-- Ekko Lightbox core CSS
+  <!-- Ekko Lightbox core CSS -->
   <link rel="stylesheet" href="vendor/ekko-lightbox/css/ekko-lightbox.css">
-  -->
 
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="css/business-frontpage.css">
@@ -117,7 +116,7 @@
             <p class="card-text">Bootstrapping is the practice of estimating properties of an estimator (such as its variance) by measuring those properties when sampling from an approximating distribution.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_08.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_08.html" data-toggle="lightbox" data-disable-external-check="true" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -129,7 +128,7 @@
             <p class="card-text">Human Activity Recognition has emerged as a key research area in the last years and is gaining increasing attention by the pervasive computing research community.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_07.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_07.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -141,7 +140,7 @@
             <p class="card-text">In this article we will examine some statistics relating to a set of cars to see if we can make predictions about fuel consumption (MPG).</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_06.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_06.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -158,7 +157,7 @@
             <p class="card-text">We will perform an analysis of this data to see if there are any significant differences in tooth growth for the different delivery methods across dosages.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_05.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_05.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -170,7 +169,7 @@
             <p class="card-text">Our simulation will draw 40 samples from an exponentially distributed population. It will construct both a set of means of these samples, and a normalized set of means of these samples.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_04.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_04.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -182,7 +181,7 @@
             <p class="card-text">In this project we will perform a basic analysis of the effect of severe weather events, in both the public health and economic senses, on the community.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_03.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_03.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -199,7 +198,7 @@
             <p class="card-text">It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up.</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_02.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_02.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -211,7 +210,7 @@
             <p class="card-text">America seems to be a country divided - along cultural, political, and religious lines to name a few. Or is it?</p>
           </div>
           <div class="card-footer">
-            <a href="research/research_01.html" class="btn btn-primary">Find Out More!</a>
+            <a href="research/research_01.html" data-toggle="lightbox" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -249,9 +248,8 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Ekko Lightbox core JavaScript
+  <!-- Ekko Lightbox core JavaScript -->
   <script src="vendor/ekko-lightbox/js/ekko-lightbox.min.js"></script>
-  -->
 
   <!--
   <script src="https://kit.fontawesome.com/38e7c0878e.js"></script>
@@ -259,12 +257,12 @@
 
   <script type="text/javascript">
 
-      // $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      //   event.preventDefault();
-      //   $(this).ekkoLightbox({
-      //     alwaysShowClose: true
-      //   });
-      // });
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({
+          alwaysShowClose: true
+        });
+      });
 
   </script>
 
